@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api.Http</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Http.Controllers.WarriorsController">
+            <summary>
+            Defines the <see cref="T:Api.Http.Controllers.WarriorsController" />
+            </summary>
+        </member>
+        <member name="M:Api.Http.Controllers.WarriorsController.Create(Domain.Helpers.CharacterTypes)">
+            <summary>
+            The Create
+            </summary>
+            <param name="character">The character<see cref="T:Domain.Helpers.CharacterTypes"/></param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/></returns>
+        </member>
+        <member name="M:Api.Http.Controllers.WarriorsController.Kill(System.String)">
+            <summary>
+            The Kill
+            </summary>
+            <param name="id">The id<see cref="T:System.String"/></param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/></returns>
+        </member>
+        <member name="M:Api.Http.Controllers.WarriorsController.KillAll">
+            <summary>
+            The KillAll
+            </summary>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult"/></returns>
+        </member>
+        <member name="M:Api.Http.Controllers.WarriorsController.Eat(System.String,Domain.Helpers.FoodTypes)">
+            <summary>
+            The Eat
+            </summary>
+            <param name="id">The id<see cref="T:System.String"/></param>
+            <param name="food">The food<see cref="T:Domain.Helpers.FoodTypes"/></param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/></returns>
+        </member>
+        <member name="M:Api.Http.Controllers.WarriorsController.Drink(System.String,Domain.Helpers.PortionTypes)">
+            <summary>
+            The Drink
+            </summary>
+            <param name="id">The id<see cref="T:System.String"/></param>
+            <param name="portion">The portion<see cref="T:Domain.Helpers.PortionTypes"/></param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/></returns>
+        </member>
+        <member name="M:Api.Http.Controllers.WarriorsController.Warrior(System.String)">
+            <summary>
+            The Warrior
+            </summary>
+            <param name="id">The id<see cref="T:System.String"/></param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/></returns>
+        </member>
+        <member name="M:Api.Http.Controllers.WarriorsController.AllWarriors">
+            <summary>
+            The AllWarriors
+            </summary>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/></returns>
+        </member>
+        <member name="T:Api.Http.Program">
+            <summary>
+            Defines the <see cref="T:Api.Http.Program" />
+            </summary>
+        </member>
+        <member name="M:Api.Http.Program.Main(System.String[])">
+            <summary>
+            The Main
+            </summary>
+            <param name="args">The args<see cref="!:string[]"/></param>
+        </member>
+        <member name="M:Api.Http.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            The CreateHostBuilder
+            </summary>
+            <param name="args">The args<see cref="!:string[]"/></param>
+            <returns>The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder"/></returns>
+        </member>
+        <member name="T:Api.Http.Startup">
+            <summary>
+            Defines the <see cref="T:Api.Http.Startup" />
+            </summary>
+        </member>
+        <member name="M:Api.Http.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Api.Http.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration<see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/></param>
+        </member>
+        <member name="P:Api.Http.Startup.Configuration">
+            <summary>
+            Gets the Configuration
+            </summary>
+        </member>
+        <member name="M:Api.Http.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            The ConfigureServices
+            </summary>
+            <param name="services">The services<see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/></param>
+        </member>
+        <member name="M:Api.Http.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            The Configure
+            </summary>
+            <param name="app">The app<see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/></param>
+            <param name="env">The env<see cref="T:Microsoft.AspNetCore.Hosting.IWebHostEnvironment"/></param>
+        </member>
+    </members>
+</doc>

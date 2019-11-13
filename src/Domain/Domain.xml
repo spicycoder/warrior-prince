@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Domain.Helpers.FoodTypes">
+            <summary>
+            Defines the Food Types
+            </summary>
+        </member>
+        <member name="F:Domain.Helpers.FoodTypes.Carrot">
+            <summary>
+            Defines the Carrot
+            </summary>
+        </member>
+        <member name="F:Domain.Helpers.FoodTypes.Bread">
+            <summary>
+            Defines the Bread
+            </summary>
+        </member>
+        <member name="T:Domain.Helpers.PortionTypes">
+            <summary>
+            Defines the Portion Types
+            </summary>
+        </member>
+        <member name="F:Domain.Helpers.PortionTypes.Wine">
+            <summary>
+            Defines the Wine
+            </summary>
+        </member>
+        <member name="F:Domain.Helpers.PortionTypes.Poison">
+            <summary>
+            Defines the Poison
+            </summary>
+        </member>
+        <member name="T:Domain.Helpers.CharacterTypes">
+            <summary>
+            Defines the Character Types
+            </summary>
+        </member>
+        <member name="F:Domain.Helpers.CharacterTypes.Elf">
+            <summary>
+            Defines the Elf
+            </summary>
+        </member>
+        <member name="F:Domain.Helpers.CharacterTypes.Ogre">
+            <summary>
+            Defines the Ogre
+            </summary>
+        </member>
+        <member name="T:Domain.Helpers.WarriorCollection">
+            <summary>
+            Defines the <see cref="T:Domain.Helpers.WarriorCollection" />
+            </summary>
+        </member>
+        <member name="P:Domain.Helpers.WarriorCollection.Warriors">
+            <summary>
+            Gets or sets the Warriors
+            </summary>
+        </member>
+        <member name="T:Domain.Models.Warrior">
+            <summary>
+            Defines the <see cref="T:Domain.Models.Warrior" />
+            </summary>
+        </member>
+        <member name="M:Domain.Models.Warrior.#ctor(Domain.Helpers.CharacterTypes)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Domain.Models.Warrior"/> class.
+            </summary>
+            <param name="character">The character<see cref="T:Domain.Helpers.CharacterTypes"/></param>
+        </member>
+        <member name="P:Domain.Models.Warrior.Id">
+            <summary>
+            Gets the Warrior Id
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Warrior.CharacterType">
+            <summary>
+            Gets the Character Type
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Warrior.Health">
+            <summary>
+            Gets the Health
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Warrior.Magic">
+            <summary>
+            Gets the Magic
+            </summary>
+        </member>
+        <member name="M:Domain.Models.Warrior.Eat(Domain.Helpers.FoodTypes)">
+            <summary>
+            Warrior eats food
+            </summary>
+            <param name="food">The food<see cref="T:Domain.Helpers.FoodTypes"/></param>
+        </member>
+        <member name="M:Domain.Models.Warrior.Drink(Domain.Helpers.PortionTypes)">
+            <summary>
+            Warrior drinks a portion
+            </summary>
+            <param name="portion">The portion<see cref="T:Domain.Helpers.PortionTypes"/></param>
+        </member>
+    </members>
+</doc>
