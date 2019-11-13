@@ -1,6 +1,7 @@
 ﻿namespace Domain.Models
 {
     using Helpers;
+    using Newtonsoft.Json;
     using System;
 
     /// <summary>
@@ -33,21 +34,25 @@
         /// <summary>
         /// Gets the Warrior Id
         /// </summary>
+        [JsonProperty("id")]
         public string Id { get; private set; }
 
         /// <summary>
         /// Gets the Character Type
         /// </summary>
+        [JsonProperty("characterType")]
         public CharacterTypes CharacterType { get; private set; }
 
         /// <summary>
         /// Gets the Health
         /// </summary>
+        [JsonProperty("health")]
         public int Health { get; private set; }
 
         /// <summary>
         /// Gets the Magic
         /// </summary>
+        [JsonProperty("magic")]
         public int Magic { get; private set; }
 
         /// <summary>
