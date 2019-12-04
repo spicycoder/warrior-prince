@@ -5,11 +5,11 @@ Simple RPG storyline
 
 ## Swagger
 
-https://warrior-prince.azurewebsites.net/index.html
+https://warrior-prince.azurewebsites.net
 
 ## Living Documentation
 
-https://warrior-prince-docs.azurewebsites.net/?feature=CharacterDesign.feature
+https://warrior-prince-docs.azurewebsites.net
 
 ## Build, Deployment & Quality
 
