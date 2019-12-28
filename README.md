@@ -70,3 +70,51 @@ https://warrior-prince-docs.azurewebsites.net
 |---------------------|-----|------|
 | Wine                | -20 | +40  |
 | Poison              | +40 | -20  |
+
+---
+
+## Build solution
+
+Build & Publish in `Release` mode
+
+```ps1
+.\build.ps1
+```
+
+`Debug` mode
+
+```ps1
+.\build.ps1 -c Debug
+```
+
+---
+
+## Build, Test & Generate Living Documentation
+
+```ps1
+.\build -t TestAndDocument
+```
+
+---
+
+## SonarQube - Analysis
+
+Install SonarQube as docker
+
+```
+docker pull sonarqube
+```
+
+Start the server
+
+```
+docker run -d --name sonarqube -p 9000:9000 sonarqube
+```
+
+**Build with SonarQube analysis**
+
+```ps1
+.\build.ps1 -t BuildWithAnalysis
+```
+
+---

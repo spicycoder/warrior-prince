@@ -331,3 +331,9 @@ tools/**
 
 # Test results
 TestResults/**
+
+# SonarQube
+.sonarqube/
+
+# vscode
+.vscode/
